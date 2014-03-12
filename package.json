@@ -1,0 +1,56 @@
+{
+  "name": "wiki-client",
+  "version": "0.1.4",
+  "description": "Federated Wiki - Client-side Javascript",
+  "keywords": [
+    "wiki",
+    "federated wiki",
+    "wiki client"
+  ],
+  "author": {
+    "name": "Ward Cunningham",
+    "email": "ward@c2.com",
+    "url": "http://ward.fed.wiki.org"
+  },
+  "contributors": [
+    {
+      "name": "Nick Niemeir",
+      "email": "nick.niemeir@gmail.com",
+      "url": "http://nrn.io"
+    },
+    {
+      "name": "Paul Rodwell",
+      "email": "paul.rodwell@btinternet.com",
+      "url": "http://wiki-paul90.rhcloud.com"
+    }
+  ],
+  "dependencies": {
+    "underscore": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "coffeeify": "*",
+    "docco": "*",
+    "mocha": "*",
+    "sinon": "1.7.1",
+    "expect.js": "*",
+    "grunt": "~0.4",
+    "grunt-browserify": "~1.2",
+    "grunt-contrib-coffee": "~0.7",
+    "grunt-contrib-watch": "~0.5",
+    "grunt-mocha-test": "~0.8.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedwiki/wiki-client"
+  },
+  "bugs": {
+    "url": "https://github.com/fedwiki/wiki-client/issues"
+  },
+  "engines": {
+    "node": ">0.8"
+  }
+}
